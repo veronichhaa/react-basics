@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.App{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.post{
+    width: 700px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 2px teal solid;
+}
+
+.post__btns{
+    margin-top: 10px;
+    display: flex;
+    justify-content: right;
+}
+
+.post__btns button:nth-child(1){
+    margin-right: -2px;
+    padding: 5px 10px;
+    background-color: white;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    gap: 10px;
+}
+
+.filter{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.post__block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(0, 0, 0, 0.1);
+    gap: 50px;
+    padding: 100px;
+}
+
+.post__comments{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.comment__email{
+    margin: 3px 0px 7px 0px;
+    color: gray;
+    font-size: 12px;
+}
+
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    max-width: 600px;
+}
+
+.loginForm label{
+    margin-bottom: -10px;
+}

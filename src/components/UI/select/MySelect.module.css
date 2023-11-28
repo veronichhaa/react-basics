@@ -1,0 +1,9 @@
+.mySelect{
+    background-color: transparent;
+    padding: 5px 10px;
+    border: 2px solid teal;
+}
+
+.container{
+    width: 700px;
+}

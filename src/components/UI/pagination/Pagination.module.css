@@ -1,0 +1,13 @@
+.pages{
+    display: flex;
+    gap: 5px;
+}
+
+.pages__inner{
+    padding: 5px 10px;
+    border: 2px solid teal;
+}
+
+.active{
+    border: 2px solid orange;
+}
